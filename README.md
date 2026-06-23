@@ -45,6 +45,19 @@ Lead
   -> Build
 ```
 
+## Current Status
+
+Already created:
+
+- Google Form
+- Google Sheet connected to form responses
+
+Next up:
+
+- Apps Script trigger or hosted webhook endpoint
+- OpenAI API connection
+- prompt testing with real submissions
+
 ## Repo Contents
 
 - [docs/mvp.md](docs/mvp.md) - MVP definition and operating model
@@ -95,8 +108,7 @@ This repo does not automatically create external services for you. See [docs/set
 
 ## Suggested Immediate Next Step
 
-1. Create the Google Form from [docs/google-form.md](docs/google-form.md).
-2. Connect it to a Google Sheet.
-3. Choose whether to use Apps Script or a small Next.js endpoint for the webhook step.
-4. Paste the prompts into your preferred OpenAI/Codex workflow.
-5. Run 3 to 5 real or simulated business workflows through the process.
+1. Choose whether to use Apps Script or a small Next.js endpoint for the webhook step.
+2. Add the Sheet trigger and connect it to your processing flow.
+3. Paste the prompts into your preferred OpenAI/Codex workflow.
+4. Run 3 to 5 real or simulated business workflows through the process.

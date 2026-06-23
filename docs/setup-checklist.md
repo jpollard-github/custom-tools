@@ -8,11 +8,22 @@
 - a proposal template
 - an example Apps Script webhook forwarder
 
+## Current Project Status
+
+Completed outside this repo:
+
+- Google Form created
+- Google Sheet created and connected to form responses
+
 ## What You Still Need To Create
 
 ### Google Form
 
-Create a Google Form using the fields in [google-form.md](google-form.md).
+Status:
+
+- complete
+
+Created using the fields in [google-form.md](google-form.md).
 
 Why:
 
@@ -21,7 +32,11 @@ Why:
 
 ### Google Sheet
 
-Attach the Form to a response Sheet.
+Status:
+
+- complete
+
+Attached to the Form as the response Sheet.
 
 Why:
 
@@ -79,20 +94,18 @@ Create Clerk only when:
 
 ## Recommended Creation Order
 
-1. Google Form
-2. Google Sheet
-3. Apps Script trigger
-4. OpenAI API key
-5. Basic prompt test
-6. Proposal template refinement
-7. Optional hosted endpoint on Vercel
+1. Apps Script trigger or hosted webhook endpoint
+2. OpenAI API key
+3. Basic prompt test
+4. Proposal template refinement
+5. Optional hosted endpoint on Vercel
 
 ## Lowest-Friction First Version
 
 If speed matters most, start with:
 
-- Google Form
-- Google Sheet
+- existing Google Form
+- existing Google Sheet
 - manual copy/paste into prompt
 - human review
 
